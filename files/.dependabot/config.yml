@@ -10,6 +10,22 @@ update_configs:
           dependency_type: "all"
           update_type: "all"
           dependency_name: "@types/*"
+      - match:
+          dependency_type: "all"
+          update_type: "all"
+          dependency_name: "aws-sdk"
+      - match:
+          dependency_type: "all"
+          update_type: "all"
+          dependency_name: "stripe"
+      - match:
+          dependency_type: "all"
+          update_type: "all"
+          dependency_name: "@jonny/eslint-config"
+      - match:
+          dependency_type: "all"
+          update_type: "all"
+          dependency_name: "mongodb-memory-server"
     version_requirement_updates: increase_versions
   # For iOS Apps
   - package_manager: "ruby:bundler"
