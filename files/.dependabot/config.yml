@@ -20,6 +20,8 @@ update_configs:
       - match:
           dependency_name: 'stripe'
       - match:
+          dependency_name: 'polished'
+      - match:
           dependency_name: '@jonny/eslint-config'
       - match:
           dependency_name: 'mongodb-memory-server'
