@@ -20,6 +20,10 @@ update_configs:
       - match:
           dependency_name: 'stripe'
       - match:
+          dependency_name: 'ava'
+      - match:
+          dependency_name: 'prettier'
+      - match:
           dependency_name: '@jonny/eslint-config'
       - match:
           dependency_name: 'mongodb-memory-server'
@@ -28,5 +32,8 @@ update_configs:
   - package_manager: 'ruby:bundler'
     directory: '/'
     update_schedule: 'live'
+    automerged_updates:
+      - match:
+          dependency_name: 'fastlane'
     default_assignees:
       - 'JonnyBurger'
