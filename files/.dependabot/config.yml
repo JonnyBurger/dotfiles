@@ -22,6 +22,8 @@ update_configs:
       - match:
           dependency_name: 'ava'
       - match:
+          dependency_name: 'polished'
+      - match:
           dependency_name: 'prettier'
       - match:
           dependency_name: '@jonny/eslint-config'
