@@ -18,6 +18,8 @@ update_configs:
       - match:
           dependency_name: 'stripe'
       - match:
+          dependency_name: '@react-native-community/cli'
+      - match:
           dependency_name: 'ava'
       - match:
           dependency_name: 'polished'
